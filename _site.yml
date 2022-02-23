@@ -11,7 +11,7 @@ navbar:
   search: true
   source_url: true
   logo:
-    image: "img/Brand Victoria State Gov DJPR reverse rgb.png"
+    image: "https://raw.githubusercontent.com/djpr-data/blank_rmd_project/main/img/Brand Victoria State Gov DJPR reverse rgb.png"
     href: https://intranet.djpr.vic.gov.au/organisation/groups-and-branches/strategy-and-priority-projects/economic-and-data-analysis
   right:
     - text: "Home"
