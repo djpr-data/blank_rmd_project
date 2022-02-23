@@ -1,0 +1,27 @@
+name: "blank_rmd_project"
+title: "Analyst Reports"
+description: |
+  This is a simple code / script repository
+output_dir: "public"
+base_url: ''
+repository_url: https://github.com/djpr-data
+navbar:
+  title: SPP Data & Analytics
+  type: default
+  search: true
+  source_url: true
+  logo:
+    image: "img/Brand Victoria State Gov DJPR reverse rgb.png"
+    href: https://intranet.djpr.vic.gov.au/organisation/groups-and-branches/strategy-and-priority-projects/economic-and-data-analysis
+  right:
+    - text: "Home"
+      href: index.html
+    - text: Labour Markets
+      href: https://djpr-spp.shinyapps.io/djprlabourdash/
+    - text: Trade
+      href: https://djpr-spp.shinyapps.io/djprtradedash/
+    - icon: fa fa-rss
+      href: index.xml
+output:
+  distill::distill_article:
+    css: djpr.css
