@@ -1,0 +1,54 @@
+
+
+.navbar-fixed-top {
+  background:         #201547 url(https://raw.githubusercontent.com/djpr-data/blank_rmd_project/main/img/djpr-shards.png) top right no-repeat;
+  background-size:    85px;
+  height:             85px;
+  padding-top:        15px;
+  padding-bottom:     50px;
+}
+
+.navbar-logo {
+  height:55px;
+}
+
+.desktop-layout {
+  padding-top: 50px;
+}
+
+.sidebar {
+  padding-top: 50px;
+}
+
+.navbar-inverse {
+    border-color: white;
+}
+
+.navbar-brand {
+    position: absolute;
+    right: 150px;
+}
+
+.buttons-collection, .buttons-excel {
+  background-color: #606080; !important
+
+  opacity: 0.1; !important
+}
+
+.buttons-collection:hover, .buttons-excel:hover {
+  background-color: #201547; !important
+  opacity: 1;
+}
+
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #78be1f;
+    color: white;
+}
+
+
+
